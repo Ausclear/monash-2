@@ -16,14 +16,14 @@ The predecessor site remains at [Ausclear/monash-film](https://github.com/Auscle
 /
 ├── index.html          Single-file HTML build with inline CSS + JS
 ├── audio/
-│   ├── moonlight-adagio.mp3   Beethoven, Moonlight Sonata Op. 27 No. 2 · Mvt I — 56 kbps mono
-│   └── moonlight-adagio.ogg   OGG Vorbis fallback
+│   ├── gnossienne.mp3   Satie, Gnossienne No. 1 — performed by La Pianista, 56 kbps mono
+│   └── gnossienne.ogg   OGG Vorbis fallback
 ├── vercel.json         Deployment config (public, cache headers, CORS on audio)
 └── README.md
 ```
 
 Audio is served via jsDelivr CDN:
-- `https://cdn.jsdelivr.net/gh/Ausclear/monash-2@main/audio/moonlight-adagio.mp3`
+- `https://cdn.jsdelivr.net/gh/Ausclear/monash-2@main/audio/gnossienne.mp3`
 
 ## Design
 
