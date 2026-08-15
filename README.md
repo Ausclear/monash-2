@@ -16,14 +16,14 @@ The predecessor site remains at [Ausclear/monash-film](https://github.com/Auscle
 /
 ├── index.html          Single-file HTML build with inline CSS + JS
 ├── audio/
-│   ├── nocturne.mp3    Chopin, Nocturne in C-sharp minor, Op. Posth. — 56 kbps mono
-│   └── nocturne.ogg    OGG Vorbis fallback
+│   ├── prelude.mp3     Chopin, Prelude in E minor, Op. 28 No. 4 — 56 kbps mono
+│   └── prelude.ogg     OGG Vorbis fallback
 ├── vercel.json         Deployment config (public, cache headers, CORS on audio)
 └── README.md
 ```
 
 Audio is served via jsDelivr CDN:
-- `https://cdn.jsdelivr.net/gh/Ausclear/monash-2@main/audio/nocturne.mp3`
+- `https://cdn.jsdelivr.net/gh/Ausclear/monash-2@main/audio/prelude.mp3`
 
 ## Design
 
@@ -32,7 +32,7 @@ Cinematic dark aesthetic with restrained red accent (`#a2251c`), Cormorant Garam
 ## Attribution
 
 - Historical imagery: public domain (Australian War Memorial, Wikimedia Commons)
-- Score: Chopin, Nocturne in C-sharp minor, Op. Posth. — recording via Wikimedia Commons, CC BY 3.0
+- Score: Chopin, Prelude in E minor, Op. 28 No. 4 — performed by Ivan Ilić, via Wikimedia Commons, CC BY 3.0
 - Key art: original artwork for the project
 
 © 2026 Mark Smith · Trigger Creative™
